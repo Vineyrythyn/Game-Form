@@ -1,0 +1,85 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background-image: url('https://servreality.com/wp-content/uploads/2021/06/Game-Development.jpeg');
+    background-size: cover;
+    background-position: center;
+}
+
+.container {
+    width: 100%;
+    max-width: 600px;
+    margin: 5% auto;
+    padding: 20px;
+    background: rgba(229, 223, 223, 0.8);
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(255, 255, 255, 0.795);
+    color: white;
+}
+
+h1 {
+    text-align: center;
+    color: #000000;
+    margin-bottom: 10px;
+    font-family: 'Georgia', serif;
+}
+
+p {
+    text-align: center;
+    color: #000000;
+    margin-bottom: 30px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    color: #000000;
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="tel"],
+input[type="date"],
+input[type="url"],
+input[type="file"],
+select {
+    width: 95%;
+    padding: 10px;
+    border: 1px solid #ffffff;
+    border-radius: 5px;
+    background-color: #f0dddd;
+    color: white;
+}
+
+input[type="checkbox"] {
+    margin-right: 5px;
+}
+
+.error-message {
+    color: #FF4500;
+    font-size: 12px;
+    display: none;
+    margin-top: 5px;
+}
+
+button {
+    width: 100%;
+    padding: 15px;
+    background-color: #1496b097;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+button:hover {
+    background-color: #006aff;
+}

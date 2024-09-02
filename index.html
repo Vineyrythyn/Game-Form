@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game Dev Quest: Join the Adventure - Registration</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Game Dev Quest: Join the Adventure</h1>
+        <p>Embark on a journey to master game development. Register now to join the adventure!</p>
+        <form id="registration-form">
+            <div class="form-group">
+                <label for="username">Username:</label>
+                <input type="text" id="username" name="username" placeholder="Enter your username" required>
+                <span class="error-message" id="username-error"></span>
+            </div>
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" placeholder="yourname@domain.com" required>
+                <span class="error-message" id="email-error"></span>
+            </div>
+            <div class="form-group">
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" placeholder="Create a password" required>
+                <span class="error-message" id="password-error"></span>
+            </div>
+            <div class="form-group">
+                <label for="confirm-password">Confirm Password:</label>
+                <input type="password" id="confirm-password" name="confirm-password" placeholder="Confirm your password" required>
+                <span class="error-message" id="confirm-password-error"></span>
+            </div>
+            <div class="form-group">
+                <label for="phone">Phone Number:</label>
+                <input type="tel" id="phone" name="phone" placeholder="1234567890" required>
+                <span class="error-message" id="phone-error"></span>
+            </div>
+            <div class="form-group">
+                <label for="dob">Date of Birth:</label>
+                <input type="date" id="dob" name="dob" required>
+                <span class="error-message" id="dob-error"></span>
+            </div>
+            <div class="form-group">
+                <label for="favorite-genre">Favorite Game Genre:</label>
+                <select id="favorite-genre" name="favorite-genre" required>
+                    <option value="">Select a genre</option>
+                    <option value="action">Action</option>
+                    <option value="rpg">RPG</option>
+                    <option value="strategy">Strategy</option>
+                    <option value="simulation">Simulation</option>
+                    <option value="puzzle">Puzzle</option>
+                    <option value="sports">Sports</option>
+                </select>
+                <span class="error-message" id="genre-error"></span>
+            </div>
+            <div class="form-group">
+                <label for="experience">Game Development Experience:</label>
+                <input type="text" id="experience" name="experience" placeholder="e.g., 2 years in Unity" required>
+                <span class="error-message" id="experience-error"></span>
+            </div>
+            <div class="form-group">
+                <label for="portfolio">Portfolio Link:</label>
+                <input type="url" id="portfolio" name="portfolio" placeholder="https://yourportfolio.com" required>
+                <span class="error-message" id="portfolio-error"></span>
+            </div>
+            <div class="form-group">
+                <label for="avatar">Upload Avatar:</label>
+                <input type="file" id="avatar" name="avatar" required>
+                <span class="error-message" id="avatar-error"></span>
+            </div>
+            <div class="form-group">
+                <label>
+                    <input type="checkbox" id="terms" name="terms" required> I agree to the <a href="#">terms and conditions</a>
+                </label>
+                <span class="error-message" id="terms-error"></span>
+            </div>
+            <button type="submit" id="submit-btn">Register</button>
+        </form>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
